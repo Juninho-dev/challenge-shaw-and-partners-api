@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node dist/index.js",
+    "start": "node dist/src/server.js",
     "postinstall": "tsc",
     "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts",
     "lint": "eslint --ext .ts src --fix"
